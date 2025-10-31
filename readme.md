@@ -9,3 +9,5 @@ It's a web application where tutors will:
 - Keep track of client payments
 - Bill their clients automatically
 - Send notifications on changes and booked lessons
+## Tech
+- JavaScript
