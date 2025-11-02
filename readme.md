@@ -10,4 +10,5 @@ It's a web application where tutors will:
 - Bill their clients automatically
 - Send notifications on changes and booked lessons
 ## Tech
+- JavaScript
 - JavaScript (node.js)
