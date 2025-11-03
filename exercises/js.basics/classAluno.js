@@ -1,4 +1,4 @@
-class Aluno {
+export class Aluno {
     constructor(primeiroNome,ultimoNome,idade,email,ano,disciplinas,encarregado,dataInscricao,fatura) {
         this.primeiroNome = primeiroNome;
         this.ultimoNome = ultimoNome;
@@ -51,7 +51,3 @@ const novoAluno = new Aluno("Teresa","Jesus","teresa@gmail.com",12,7,['matematic
 const nomeCompleto = novoAluno.nomeCompleto()
 const ee = novoAluno.nomeEncarregado()
 const passou = novoAluno.atualizarAno() 
-
-console.log(nomeCompleto)
-console.log(ee)
-console.log(novoAluno.ano)
