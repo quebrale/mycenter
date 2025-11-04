@@ -1,5 +1,5 @@
 export class Aluno {
-    constructor(primeiroNome,ultimoNome,idade,email,ano,disciplinas,encarregado,dataInscricao,fatura) {
+    constructor(primeiroNome,ultimoNome,email,idade,ano,disciplinas,encarregado,dataInscricao,fatura) {
         this.primeiroNome = primeiroNome;
         this.ultimoNome = ultimoNome;
         this.email = email;
