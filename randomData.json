@@ -1,0 +1,167 @@
+ {
+  
+  "nome": [
+    "Miguel",
+    "Beatriz",
+    "Tiago",
+    "Inês",
+    "Pedro"
+  ],
+  "apelido": [
+    "Fernandes Correia",
+    "Santos Almeida",
+    "Oliveira Mendes",
+    "Pinto Ribeiro",
+    "Sousa Lima"
+  ],
+  "data_nascimento": [
+    "2010-08-25",
+    "2009-11-12",
+    "2011-04-03",
+    "2008-01-30",
+    "2012-10-18"
+  ],
+  "email": [
+    "miguel.fc@escolaexemplo.pt",
+    "beatriz.sa@escolaexemplo.pt",
+    "tiago.om@escolaexemplo.pt",
+    "ines.pr@escolaexemplo.pt",
+    "pedro.sl@escolaexemplo.pt"
+  ],
+  "nr_telemovel": [
+    "917551234",
+    "939876543",
+    "962113355",
+    "925700812",
+    "911223344"
+  ],
+  "encarregado_educacao": [
+    "Filipa Correia",
+    "Carlos Almeida",
+    "Helena Oliveira",
+    "Rui Ribeiro",
+    "Mónica Sousa"
+  ],
+  "nr_encarregado": [
+    "966321987",
+    "921456789",
+    "915887766",
+    "934987654",
+    "968009988"
+  ],
+  "data_inscricao": [
+    "2024-03-10",
+    "2023-09-01",
+    "2024-01-20",
+    "2022-09-15",
+    "2023-08-28"
+  ],
+  "morada": [
+    "Rua Principal, 105, 3º Dto",
+    "Avenida dos Descobrimentos, 22, Bloco B",
+    "Travessa da Alegria, 7, R/C Esq",
+    "Largo do Mercado, 4, 1º Frente",
+    "Rua Nova, Lote 14, 2º A"
+  ],
+  "codigo_postal": [
+    "4500-201 Espinho",
+    "8000-001 Faro",
+    "1700-100 Lisboa",
+    "3000-055 Coimbra",
+    "4705-150 Braga"
+  ],
+  "pagamento_id": [
+    "P2024001",
+    "P2024002",
+    "P2024003",
+    "P2024004",
+    "P2024005",
+    "P2024006",
+    "P2024007"
+  ],
+  "aluno_id": [
+    "A20240451",
+    "A20230109",
+    "A20240677",
+    "A20220901",
+    "A20230233",
+    "A20240451",
+    "A20230109"
+  ],
+  "valor": [
+    95.00,
+    110.50,
+    95.00,
+    110.50,
+    95.00,
+    95.00,
+    110.50
+  ],
+  "modo": [
+    "MBWAY",
+    "Transferência",
+    "Referência Multibanco",
+    "MBWAY",
+    "Transferência",
+    "Referência Multibanco",
+    "MBWAY"
+  ],
+  "data_pagamento": [
+    "2024-10-05",
+    "2024-10-07",
+    "2024-10-10",
+    "2024-10-15",
+    "2024-10-20",
+    "2024-11-05",
+    "2024-11-07"
+  ],
+  "aula_id": [
+    "AU20241001",
+    "AU20241002",
+    "AU20241003",
+    "AU20241004"
+  ],
+  "professor_id": [
+    "P001",
+    "P002",
+    "P001",
+    "P003"
+  ],
+  "alunos_id": [
+    ["A20240451", "A20230109"],
+    ["A20240677", "A20220901", "A20230233"],
+    ["A20240451", "A20240677"],
+    ["A20230109"]
+  ],
+  "startdate": [
+    "2024-11-10T14:00:00",
+    "2024-11-10T16:30:00",
+    "2024-11-12T09:00:00",
+    "2024-11-12T11:00:00"
+  ],
+  "enddate": [
+    "2024-11-10T15:30:00",
+    "2024-11-10T18:00:00",
+    "2024-11-12T10:30:00",
+    "2024-11-12T12:00:00"
+  ],
+  "disciplina": [
+    "Matemática",
+    "Inglês",
+    "Matemática",
+    "Programação"
+  ],
+  "tipo_aula": [
+    "Grupo (Online)",
+    "Individual (Presencial)",
+    "Grupo (Presencial)",
+    "Individual (Online)"
+  ],
+  "disciplinas": [
+    ["Matemática", "Física"],
+    ["Inglês", "Alemão"],
+    ["Programação", "Bases de Dados", "Cibersegurança"],
+    ["Português", "História"]
+  ]
+  
+}
