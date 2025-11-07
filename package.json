@@ -1,0 +1,12 @@
+{
+  "name": "objetivo",
+  "version": "1.0.0",
+  "description": "A web app for tutors to manage lessons, students, finances and billing.\r ## Description\r It's a web application where tutors will:\r - Maintain an up-to date datebase of all clients and respective details\r - Manage creation, change and deletion of different types of lessons (individual, groups, question resolution) over a calendar\r - Manage hired tutors\r - Monitor revenue of their business and expenses over an admin view\r - Keep track of client payments\r - Bill their clients automatically\r - Send notifications on changes and booked lessons\r ## Tech\r - JavaScript\r - JavaScript (node.js)",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
