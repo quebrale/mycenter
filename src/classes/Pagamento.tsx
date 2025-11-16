@@ -1,11 +1,21 @@
+interface dadosPagamento {
+  pagamento_id: string;
+  aluno_id: string;
+  valor: string;
+  modo: string;
+  data_pagamento: string;
+}
+
+
 export class Pagamento {
+    pagamentos : Array<dadosPagamento>
     constructor() {
         this.pagamentos = [];
        
 }
 
 
-createPagamento(data) {
+createPagamento(data : dadosPagamento) {
     const pagamento = {
         "pagamento_id": data.pagamento_id,
         "aluno_id": data.aluno_id,
@@ -18,11 +28,11 @@ createPagamento(data) {
     return pagamento
     }
 
-readPagamento(id) {
+readPagamento(id : string) {
     return this.pagamentos.find(item => item.pagamento_id === id);
     }
 
-updatePagamento (id,data) {
+updatePagamento (id : string, data : dadosPagamento) {
     const pagamento = this.readPagamento(id);
     if (data) {
         if (data.aluno_id) pagamento.aluno_id = data.aluno_id;
@@ -35,7 +45,7 @@ updatePagamento (id,data) {
     return pagamento
 }
 
-deletePagamento (id) {
+deletePagamento (id : string) {
     this.pagamentos = this.pagamentos.filter(item => item.pagamento_id !== id);
 }
 
