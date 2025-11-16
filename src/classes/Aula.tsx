@@ -1,9 +1,20 @@
+interface dadosAula {
+  aula_id: string;
+  professor_id: string;
+  alunos_id: string;
+  startdate: string;
+  enddate: string;
+  disciplina: Array<string>;
+  tipo_aula: string;
+}
+
 export class Aula {
+    aulas : Array<dadosAula>
     constructor() {
         this.aulas = []  
     }
 
-createAula (data) {
+createAula (data : dadosAula) {
     
     const aula = {
         "aula_id": data.aula_id,
@@ -18,11 +29,11 @@ createAula (data) {
         return aula
     };
 
-readAula (id) {
+readAula (id : string) {
     return this.aulas.find(item => item.aula_id === id);
 };
 
-updateAula (id,data) {
+updateAula (id : string, data : dadosAula) {
     const aulaUpdate = this.readAula(id)
     if(data) {
         if(data.professor_id) aulaUpdate.professor_id = data.professor_id;
@@ -36,7 +47,7 @@ updateAula (id,data) {
 
 };
 
-deleteAula(id) {
+deleteAula(id : string) {
     this.aulas = this.aulas.filter(item => item.aula_id !== id);
 };
 
